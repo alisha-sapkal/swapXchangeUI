@@ -15,9 +15,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
       <AuthProvider>
         <DataProvider>
-          {/* <Router> */}
           <App />
-          {/* </Router> */}
         </DataProvider>
       </AuthProvider>
     </ThemeProvider>

@@ -13,12 +13,7 @@ import HowItWorks from './pages/Home/HowItWorks';
 import WhyUs from './pages/Home/WhyUs'
 import Testimonials from './pages/Home/Testimonials';
 
-// Temporarily disabled protected route for development
 const ProtectedRoute = ({ children }: { children: React.ReactNode }) => {
-  // const token = localStorage.getItem('token');
-  // if (!token) {
-  //   return <Navigate to="/auth/login" replace />;
-  // }
   return <>{children}</>;
 };
 
