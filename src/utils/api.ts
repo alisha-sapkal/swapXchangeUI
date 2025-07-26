@@ -1,4 +1,4 @@
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+const API_URL = import.meta.env.VITE_API_URL || 'https://swapxchange-backend.onrender.com' || 'http://localhost:5000';
 
 export const fetchUserById = async (userId: string) => {
   try {
